@@ -23,7 +23,7 @@
                if(numItems<=3){
                    $scope.message = "Enjoy!";
                }
-               else if(numItems>=3){
+               else if(numItems>3){
                    $scope.message = "Too Much!";
                }
            }
